@@ -19,6 +19,7 @@ abbr clone 'git clone'
 abbr diff 'git diff'
 abbr dev 'git checkout develop'
 abbr master 'git checkout master'
+abbr tag 'git describe --abbrev=0'
 
 # NPM
 abbr nu 'npm update'
