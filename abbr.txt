@@ -4,6 +4,8 @@ abbr ga 'git add'
 abbr gaa 'git add -A;'
 abbr gcm 'git commit -m'
 abbr gb 'git branch'
+abbr gbd 'git branch -d'
+abbr gbD 'git branch -D'
 abbr ch 'git checkout'
 abbr chb 'git checkout -b'
 abbr m 'git merge'
@@ -32,12 +34,12 @@ abbr niu 'npm install; npm update;'
 # Command Line
 abbr rmf 'rm -rf;'
 abbr ls 'ls -lah;'
-abbr lsn ls\ -la\ ./\ \|\ grep\ \"\\-\>\;"
-abbr lsnm ls\ -la\ ./node_modules/\ \|\ grep\ \"\\-\>\;"
+abbr lsn 'ls\ -la\ ./\ \|\ grep\ \"\\-\>\;"'
+abbr lsnm 'ls\ -la\ ./node_modules/\ \|\ grep\ \"\\-\>\;"'
 
 # Apps
 abbr ws 'webstorm ./'
-abbr sublime /Applications/Sublime\\\ Text.app/Contents/SharedSupport/bin/subl\ ./
+abbr sublime '/Applications/Sublime\\\ Text.app/Contents/SharedSupport/bin/subl\ ./'
 abbr serve 'live-server --watch=./src --wait=1000 --verbose'
 
 # Files and Folders

@@ -17,11 +17,11 @@ const logger = (error, stdout, stderr) => {
 // Import
 list.forEach((abbr) => {
 	if (abbr.charAt(0) === '#' || abbr.length === 0) {
-		console.log(abbr);
+//		console.log(abbr);
 		return;
 	}
 	else {
-		console.log(abbr);
+//		console.log(abbr);
 		exec(abbr, config, logger);
 		return;
 	}
