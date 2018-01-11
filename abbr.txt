@@ -45,15 +45,17 @@ abbr lsn 'ls\ -la\ ./\ \|\ grep\ \"\\-\>\;"'
 abbr lsnm 'ls\ -la\ ./node_modules/\ \|\ grep\ \"\\-\>\;"'
 
 # Apps
-abbr ws 'webstorm ./'
+abbr ws 'webstorm .'
 abbr serve 'live-server --watch=./src --wait=1000 --verbose'
 abbr served 'live-server --watch=./dist --wait=500 --verbose'
 
 # Files and Folders
 abbr www 'cd ~/www'
 abbr edu 'cd ~/www/edu'
+abbr bf 'cd ~/www/bradleyflood'
 
 # Company specific
 abbr fox 'cd ~/www/fox-sports'
 abbr fiso 'node ~/www/edu/get-fiso-projects/get-fiso.js'
 abbr grunty 'grunt clean ; grunt --force ; grunt watcher'
+
