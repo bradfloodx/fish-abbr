@@ -30,6 +30,9 @@ abbr master 'git checkout master'
 abbr tag 'git describe --abbrev=0;'
 abbr gfo 'git fetch origin'
 abbr gfop 'git fetch origin -p'
+abbr sub 'git submodule'
+abbr subi 'git submodule init'
+abbr subu 'git submodule update'
 
 # NPM
 abbr nu 'npm update;'
