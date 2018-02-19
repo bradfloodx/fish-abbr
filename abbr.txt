@@ -60,7 +60,4 @@ abbr edu 'cd ~/www/edu'
 abbr bf 'cd ~/www/bradleyflood'
 
 # Company specific
-abbr fox 'cd ~/www/fox-sports'
-abbr fiso 'node ~/www/edu/get-fiso-projects/get-fiso.js'
-abbr grunty 'grunt clean ; grunt --force ; grunt watcher'
 
