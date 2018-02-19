@@ -24,7 +24,7 @@ list.forEach((abbr) => {
         setTimeout(() => {
             console.log(abbr);
             exec(abbr, config, logger);
-        }, 100);
+        }, 400);
 		return;
 	}
 });
