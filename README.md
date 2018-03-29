@@ -50,4 +50,7 @@ abbr vh 'vagrant halt'
 abbr vd 'vagrant destroy --force'
 abbr vr 'vagrant reload'
 abbr vp 'vagrant provision'
+abbr tf 'terraform'
+abbr tfi 'terraform init'
+abbr tfp 'terraform plan'
 
