@@ -53,4 +53,5 @@ abbr vp 'vagrant provision'
 abbr tf 'terraform'
 abbr tfi 'terraform init'
 abbr tfp 'terraform plan'
+abbr tfw 'terraform workspace'
 
