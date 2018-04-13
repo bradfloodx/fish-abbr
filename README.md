@@ -54,4 +54,5 @@ abbr tf 'terraform'
 abbr tfi 'terraform init'
 abbr tfp 'terraform plan'
 abbr tfw 'terraform workspace'
+abbr hosts 'sudo vim /etc/hosts'
 
