@@ -56,5 +56,9 @@ abbr tfp 'terraform plan'
 abbr tfw 'terraform workspace'
 abbr hosts 'sudo vim /etc/hosts'
 abbr rn 'react-native'
+abbr rnri 'react-native run-ios'
+abbr rnra 'react-native run-android'
 abbr gulp 'nvm use; gulp'
+abbr ide 'idea ./'
+
 
