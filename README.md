@@ -70,4 +70,6 @@ abbr yg 'yarn global'
 abbr yga 'yarn global add'
 abbr ygr 'yarn global remove'
 abbr psql /Applications/Postgres.app/Contents/Versions/9.6/bin/psql
-
+abbr pg_restore /Applications/Postgres.app/Contents/Versions/9.6/bin/pg_restore
+abbr pg_dump /Applications/Postgres.app/Contents/Versions/9.6/bin/pg_dump
+abbr pg_ /Applications/Postgres.app/Contents/Versions/9.6/bin/pg_
