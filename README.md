@@ -1,3 +1,6 @@
+abbr dc 'docker-compose'
+abbr dcu 'docker-compose up'
+abbr dcd 'docker-compose down'
 abbr gs 'git status; git submodule status;'
 abbr ga 'git add'
 abbr gaa 'git add -A'
