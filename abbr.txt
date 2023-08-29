@@ -6,7 +6,7 @@ abbr a 'ack -l'
 abbr ls 'ls -hal'
 abbr www 'cd ~/www'
 abbr hosts 'sudo vim /etc/hosts'
-abbr ide 'idea ./'
+abbr ide 'open -na "IntelliJ IDEA.app" ./'
 abbr st 'stree ./'
 
 # '~~~ GIT ~~~'
