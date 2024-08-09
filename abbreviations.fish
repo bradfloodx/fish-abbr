@@ -41,6 +41,7 @@ abbr gbd 'git branch -d'
 abbr gbD 'git branch -D'
 abbr reset 'git reset HEAD^'
 abbr hard 'git reset --hard'
+abbr clone 'git clone'
 
 # '~~~ NPM ~~~'
 abbr nvu 'nvm use'
