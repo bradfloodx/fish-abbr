@@ -8,6 +8,7 @@ abbr www 'cd ~/www'
 abbr hosts 'sudo vim /etc/hosts'
 abbr ide 'idea ./'
 abbr st 'stree ./'
+abbr pj 'npx projen'
 
 # '~~~ GIT ~~~'
 abbr gs 'git status'

@@ -27,3 +27,26 @@ function cd
         nvm use
     end
 end
+
+function gh
+    set GIT_CONFIG ".git/config"
+
+    if test -f $GIT_CONFIG
+        set REMOTE_URL (grep 'url =' $GIT_CONFIG | grep 'github.com' | awk '{print $3}')
+
+        if test -n "$REMOTE_URL"
+            set REPO_PATH (string replace -r '^git@github\.com:' '' $REMOTE_URL | string replace -r '\.git$' '')
+            set HTTPS_URL "https://github.com/$REPO_PATH"
+
+            # Open the URL in the default browser
+            open $HTTPS_URL
+
+            # Also output the URL
+            echo $HTTPS_URL
+        else
+            echo "No GitHub repository URL found in $GIT_CONFIG."
+        end
+    else
+        echo "This directory is not a Git repository (no .git/config found)."
+    end
+end
