@@ -1,5 +1,4 @@
-# Default Node version for NVM.fish
-set -gx nvm_default_version 22
+set -Ux nvm_default_version 21.2.0
 
 if status is-interactive
 	source ~/www/bradflood/fish-abbr/abbreviations.fish
@@ -11,4 +10,3 @@ if status is-interactive
 	set -Ux ANDROID_HOME /Users/bradflood/Library/Android/sdk
 	set -g PATH $PATH $ANDROID_HOME/tools $ANDROID_HOME/platform-tools
 end
-

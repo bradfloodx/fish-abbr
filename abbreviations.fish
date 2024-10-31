@@ -1,6 +1,14 @@
 ### ABBREVIATIONS ###
 
-# '~~~ GENERAL ~~~'
+# ~~~ TRUSSTAI ~~~
+abbr bnd 'pnpm build && pnpm nx run @agent-assist/infra:deploy-sandbox'
+abbr pj 'npx projen'
+abbr p 'pnpm'
+abbr pi 'pnpm install'
+abbr pb 'pnpm build'
+abbr pd 'pnpm nx run @agent-assist/infra:deploy-sandbox'
+
+# ~~~ GENERAL ~~~
 abbr rmrf 'rm -rf'
 abbr a 'ack -l'
 abbr ls 'ls -hal'
@@ -8,9 +16,8 @@ abbr www 'cd ~/www'
 abbr hosts 'sudo vim /etc/hosts'
 abbr ide 'idea ./'
 abbr st 'stree ./'
-abbr pj 'npx projen'
 
-# '~~~ GIT ~~~'
+# ~~~ GIT ~~~
 abbr gs 'git status'
 abbr ga 'git add'
 abbr gaa 'git add -A'
@@ -44,7 +51,7 @@ abbr reset 'git reset HEAD^'
 abbr hard 'git reset --hard'
 abbr clone 'git clone'
 
-# '~~~ NPM ~~~'
+# ~~~ NPM ~~~
 abbr nvu 'nvm use'
 abbr ni 'npm install'
 abbr nid 'npm install --save-dev'
@@ -53,7 +60,7 @@ abbr nu 'npm uninstall'
 abbr ns 'npm start'
 abbr nvs 'nvm use; npm start'
 
-# '~~~ YARN ~~~'
+# ~~~ YARN ~~~
 abbr y 'yarn'
 abbr ya 'yarn add'
 abbr yad 'yarn add -D'
@@ -65,7 +72,7 @@ abbr yg 'yarn global'
 abbr yga 'yarn global add'
 abbr ygrm 'yarn global remove'
 
-# '~~~ REACT NATIVE ~~~'
+# ~~~ REACT NATIVE ~~~
 abbr pi 'pod install'
 abbr pii 'npx pod-install'
 abbr ri 'npx react-native run-ios'
