@@ -10,6 +10,7 @@ abbr pd 'pnpm nx run @agent-assist/infra:deploy-sandbox'
 
 abbr install 'pnpm install'
 abbr build 'pnpm build'
+abbr test 'pnpm test'
 abbr dev 'pnpm dev'
 abbr build-skip 'pnpm build --skip-nx-cache'
 abbr deploy 'pnpm nx run @agent-assist/infra:deploy-sandbox'
